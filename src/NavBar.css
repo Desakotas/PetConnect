@@ -1,0 +1,131 @@
+.navbar {
+    grid-column: 11 / 13;
+    z-index: 3;
+    justify-self: right;
+}
+
+.nav__button {
+    border: none;
+
+    color: #e9eef1;
+    background-color: transparent;
+    
+    font:inherit;
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    padding: 0;
+    list-style-type: none;
+    rotate: x 90deg;
+}
+
+.menu.open {
+    background-color: rgb(73,109,111);
+    rotate: x 0deg;
+}
+
+.menu__item {
+    position: relative;
+}
+
+.menu__button {
+    border: none;
+
+    color: #e9eef1;
+    background-color: transparent;
+
+    font:inherit;
+    cursor: pointer;
+
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.menu__item:hover .menu__button,
+.menu__item:focus-within .menu__button {
+    background-color: rgb(103,93,88);
+    color: white;
+    text-decoration: underline;
+}
+
+.menu__item:hover .submenu,
+.menu__item:focus-within .submenu {
+    rotate: y 0deg;
+}
+
+.submenu {
+    position: absolute;
+    top: 0;
+    left: -110%;
+
+    padding: 0;
+
+    background-color: rgb(80, 119, 121);
+
+    list-style-type: none;
+    
+    rotate: y 90deg;
+    transform-origin: right;
+}
+
+.submenu__item {
+    padding: 0 0.25rem;
+}
+
+.submenu__link {
+    display: inline-block;
+
+    padding: 0.5rem;
+    width: 100%;
+
+    text-decoration: none;
+
+    color: #e9eef1;
+}
+
+.submenu__link:hover, .submenu__link:focus {
+    background-color: rgb(103,93,88);
+    text-decoration: underline;
+}
+
+@media ( min-width: 40rem ) {
+    .nav__button {
+        display: none;
+    }
+
+    .navbar {
+        grid-column: 6 / 13;
+        justify-self: normal;
+    }
+
+    .menu {
+        display: flex;
+
+        position: static;
+        rotate: x 0deg;
+        
+        justify-content: space-around;
+    }
+
+    .menu__item {
+        position: static;
+    }
+
+    .menu__item:hover .submenu,
+    .menu__item:focus-within .submenu {
+        rotate: x 0deg;
+    }
+
+    .submenu {
+        top: initial;
+        left: initial;
+    
+        rotate: x 90deg;
+        transform-origin: top;
+    }
+}

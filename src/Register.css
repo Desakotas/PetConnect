@@ -1,0 +1,93 @@
+.main-register {
+    padding: 1rem;
+}
+
+.main__form {
+    display: grid;
+    grid-column: span 12;
+    grid-template-columns: repeat(12,1fr);
+    max-width: 40rem;
+
+    margin: 0 auto;
+
+    padding: 2rem; 
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: white;
+    align-items: center;
+}
+
+.form__title {
+    grid-column: span 12;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.form__label {
+    grid-column: 1 / 6;
+    margin-bottom: 0.25rem;
+}
+
+.form__required {
+    grid-column: 10 / 13;
+    
+    font-size: 0.8rem;
+    justify-self: right;
+    
+}
+
+.form__input {
+    grid-column: span 12;
+    margin-bottom: 1rem;
+}
+
+.form__error{
+    grid-column: 1 / 12;
+    margin-bottom: 1rem;
+
+    font-size: 0.9rem;
+
+    color: red;
+}
+
+.form__label--checkbox {
+    grid-column: 1 / 10;
+    margin-bottom: 1rem;
+}
+
+.form__checkbox {
+    grid-column: 10 / 13;
+    margin-bottom: 1rem;
+}
+
+.form__select {
+    grid-column: span 12;
+}
+
+.form__label--source {
+    margin-top: 1rem;
+}
+
+.form-response-message{
+    margin-top: 2rem;
+    grid-column: 1 / 8;
+    color: #555;
+}
+
+.button.register {
+    grid-column: 8 / 13;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem 2.5rem;
+    background-color: #ddd;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button.register:hover, .button.register:focus {
+    background-color: #555;
+    color: white;
+}

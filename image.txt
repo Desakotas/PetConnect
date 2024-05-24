@@ -1,0 +1,36 @@
+License Information
+
+logo.jpg:
+    https://unsplash.com/photos/white-and-brown-dog-plush-toy-b3NaswrROkI
+heroimage.jpg:
+    https://unsplash.com/photos/woman-lying-beside-brown-cat-TtjElwlsYDc
+
+gallery
+cat1.jpg:
+    https://unsplash.com/photos/short-furred-white-kitten-prone-lying-on-bed-Mb2AQenSP4k
+cat2.jpg:
+    https://unsplash.com/photos/long-fur-white-can-lying-on-white-stairs-tB4KJhciWxE
+cat3.jpg:
+    https://unsplash.com/photos/a-cat-sitting-on-a-table-looking-at-the-camera-6f5bEKc45Yg
+cat4.jpg:
+    https://unsplash.com/photos/white-persian-cat-lying-on-brown-wooden-table-I9cHfDYLT3E
+cat5.jpg:
+    https://unsplash.com/photos/long-fur-brown-cat-OVZ-pBvwPfA
+cat6.jpg:
+    https://unsplash.com/photos/a-cat-sleeping-on-a-couch-with-its-eyes-closed-QFrosQSVAY8
+
+breed
+Ragdoll1.jpg:
+    https://unsplash.com/photos/short-furred-white-kitten-prone-lying-on-bed-Mb2AQenSP4k
+Ragdoll2.jpg:
+    https://unsplash.com/photos/a-cat-sitting-in-a-basket-with-a-rope-handle-EEWbMr0LIAI
+Ragdoll3.jpg:
+    https://unsplash.com/photos/white-and-gray-long-fur-cat-on-green-wooden-surface-7KBMD7FQTJI
+ShortHair1.jpg:
+    https://unsplash.com/photos/a-cat-sitting-on-a-table-looking-at-the-camera-6f5bEKc45Yg
+ShortHair2.jpg:
+    https://unsplash.com/photos/a-cat-sleeping-on-a-couch-with-its-eyes-closed-QFrosQSVAY8
+ShortHair3.jpg:
+    https://unsplash.com/photos/a-cat-lying-on-a-wood-surface-YrNYR3vr73w
+
+licensed under the [Unsplash License](https://unsplash.com/license).

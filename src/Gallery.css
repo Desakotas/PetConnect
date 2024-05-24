@@ -1,0 +1,48 @@
+.gallery {
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #f1f1f1;
+}
+
+.gallery__title{
+    grid-column: span 12;
+    margin-left: 0rem;
+    margin-top: 0.5rem;
+}
+
+.gallery__nav {
+    grid-column: span 12;
+    margin-left: 0rem;
+}
+
+.gallery__card {
+    grid-column: span 12;
+}
+
+.gallery__nav-button {
+    margin-right: 0.5rem;
+    padding: 12px 16px;
+
+    border: none;
+    outline: none;
+    
+    font-size: 1rem;
+    background-color: white;
+    cursor: pointer;
+}
+  
+.gallery__nav-button:hover, .gallery__nav-button:focus{
+    background-color: #ddd;
+}
+  
+.gallery__nav-button.active {
+    background-color: #666;
+    color: white;
+}
+
+@media ( min-width: 40rem ) {
+    .gallery__card {
+        grid-column: span 4;
+    }
+}    

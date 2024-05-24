@@ -1,0 +1,51 @@
+.subscribe__title {
+    grid-column: span 11;
+    margin: 2rem;
+}
+
+.subscribe-open {
+    display: inline-block;
+    grid-column: span 1;
+
+    margin: 2rem;
+    padding: 10px 25px;
+
+    color: black;
+    background-color: #ddd;
+
+    border-radius: 1rem;
+    border: none;
+   
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    justify-self: left;
+ }
+  
+.subscribe-open:hover, .subscribe-open:focus{
+    background-color: #555;
+    color: white;
+}
+
+.response-text {
+    grid-column: span 12;
+    margin: 2rem;
+    text-align: center;
+}
+
+.modal {
+    max-width: 25rem;
+    margin: auto;
+}
+
+@media (min-width: 40rem) {
+    .subscribe__title {
+        grid-column: 1 / 6;
+    }
+
+    .subscribe-open {
+        grid-column: 6 / 7;
+        align-self: left;
+    }
+}
+
