@@ -1,7 +1,7 @@
 # Pet Connect Web Application
 
 ## Overview
-Pet Connect is a Single Page Application (SPA) designed to simplify the process of pet adoption and enhance engagement for pet lovers. This project was developed from October 2023 to December 2023, focusing on providing a dynamic and interactive platform for users to connect with potential pet companions.
+Pet Connect is a Single Page Application (SPA) designed to simplify the process of pet adoption and enhance engagement for pet lovers. This project focuses on providing a dynamic and interactive platform for users to connect with potential pet companions.
 
 ## Features
 - **Dynamic Content Updates**: Utilizes React for efficient state management to ensure that content updates are quick and seamless.
